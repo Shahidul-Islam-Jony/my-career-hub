@@ -1,9 +1,10 @@
+import Banner from "../Banner/Banner";
 
 
 const Statistics = () => {
     return (
         <div>
-            <h2>This is Statistics</h2>
+            <Banner></Banner>
         </div>
     );
 };
