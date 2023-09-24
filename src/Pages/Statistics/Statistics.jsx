@@ -1,7 +1,11 @@
+import { useLoaderData } from "react-router-dom";
 import Banner from "../../components/Banner/Banner";
+import JobCategorys from "../../components/JobCategorys/JobCategorys";
 
 
 const Statistics = () => {
+    const jobs = useLoaderData();
+    // console.log(Array.isArray( jobs));
     return (
         <>
             <div className="gradient">
@@ -10,7 +14,7 @@ const Statistics = () => {
                 </div>
             </div>
             <div>
-                
+               <JobCategorys jobs={jobs}></JobCategorys>
             </div>
         </>
     );

@@ -1,7 +1,7 @@
 import user from '../../assets/images/user.png'
 const Banner = () => {
     return (
-        <div className='flex justify-between items-center pt-10'>
+        <div className='flex flex-col md:flex-row justify-between items-center pt-10'>
             <div className='ml-4'>
                 <h1 className='text-7xl font-extrabold'>One Step <br /> Closer To Your <br />
                     <span className='text-[#7E90FE]'>Dream Job</span></h1>
