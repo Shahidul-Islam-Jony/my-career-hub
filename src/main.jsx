@@ -5,10 +5,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Root from './components/Root/Root';
-import Statistics from './components/Statistics/Statistics';
-import AppliedJobs from './components/AppliedJobs/AppliedJobs';
-import Blog from './components/Blog/Blog';
+
+import Root from './Root/Root';
+import Statistics from './Pages/Statistics/Statistics';
+import AppliedJobs from './Pages/AppliedJobs/AppliedJobs';
+import Blog from './Pages/Blog/Blog';
 
 const router = createBrowserRouter([{
   path: '/',

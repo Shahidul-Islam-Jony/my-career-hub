@@ -1,5 +1,6 @@
 import "../../custom.css"
 import { NavLink } from 'react-router-dom'
+
 const Header = () => {
     return (
         <div className="gradient py-10">

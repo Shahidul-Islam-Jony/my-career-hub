@@ -1,4 +1,4 @@
-import Header from "../Header/Header";
+import Header from "../../src/components/Header/Header";
 import {Outlet} from "react-router-dom";
 
 const Root = () => {
